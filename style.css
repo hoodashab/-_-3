@@ -133,7 +133,7 @@ body
 input
 {
     height: 1rem;
-    width:8rem;
+    width:7rem;
     font-size: 1.2rem;
     padding-left: 0.7rem;
 }
@@ -141,7 +141,7 @@ input
 
 .btn
 {  
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .temp
