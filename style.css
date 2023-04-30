@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+
+body
+{
+ background: linear-gradient(to right, rgb(84, 51, 255), rgb(32, 189, 255), rgb(165, 254, 203));
+     font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.main
+{
+
+    margin: auto;
+    height: 50vh;
+    width: 60vh;
+    margin-top: 5%;
+    background-color: rgba(3, 201, 136,0.5);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    
+    border-radius: 10px;
+   
+  
+}
+.temp
+{
+    padding: 7%;
+    font-size: 30px;
+    color:#FFD93D;
+}
+
+input
+{
+    margin-top: 0.7rem;
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+    /* background-color: transparent; */
+    border-radius: 0.6rem;
+    border-style: 10px solid  ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 50px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
+    outline: none;
+    border-style: none;
+    border-radius: 8px;
+    /* color: #ffff; */
+
+
+}
+
+.btn
+{
+    background-color: #c2fbd7;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(3, 253, 3);
+    font-size: 16px;
+    margin-left: 3rem;
+}
+
+.head
+{
+  font-size: 5rem;
+  margin-left: 30%;
+  margin-top: 6rem;
+  color: #ffff;
+  font-weight: 900;
+  -webkit-text-stroke: 0.8px black;
+}
+
+@media(max-width:900px) {
+
+.head
+{
+  font-size: 4.5rem;
+ margin-left: 25%;
+font-weight: 900;
+}
+
+}
+
+@media(max-width:600px) {
+    
+    .head
+{
+  font-size: 2.5rem;
+ margin-left: 6%;
+font-weight: 500;
+}
+
+
+.main
+{
+    margin: auto;
+    margin-top: 5rem;
+    height: 50vh;
+    width: 40vh;
+}
+
+
+input
+{
+    height: 2rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    padding-left: 0.7rem;
+}
+
+
+.btn
+{  
+    font-size: 10px;
+}
+}
+
